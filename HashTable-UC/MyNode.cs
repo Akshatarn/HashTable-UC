@@ -66,6 +66,7 @@ namespace HashTable_UC
             }
             return false;
         }
+
         public LinkedList<KeyValue<K, V>> GetArrayPositionAndLinkedList(K key)
         {
             int position = GetArrayPosition(key); //index number of array
